@@ -30,7 +30,7 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
           .setJson(json)
           .setFormatted(formatted)
           .setComments(comments)
-          .setOriginComments(originComments);
+          .setOriginComments(originComments)
         val rendered = resolvedConf.root().render(renderConfig)
         Ok(rendered)
       case Failure(err) => Ok(err.getMessage)
