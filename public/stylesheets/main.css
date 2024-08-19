@@ -40,6 +40,10 @@ body {
     clear : both;
 }
 
+pre {
+    margin: 0;
+}
+
 .footer {
     text-align : center;
 }
