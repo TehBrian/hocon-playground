@@ -1,49 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
-.content {
-    margin: 10px auto;
-    width: 1300px;
+.boxes {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    justify-items: center;
+    gap: 20px;
 }
 
-#left {
-    float: left;
-    width: 630px;
-    text-align: left;
-}
-
-#right {
-    float: right;
-    width: 630px;
-    text-align: left;
+.box {
+    flex: 1;
+    min-width: 0;
 }
 
 #hocon {
-    -moz-appearance: textfield-multiline;
-    -webkit-appearance: textarea;
-    font: medium -moz-fixed;
     resize: vertical;
     min-height: 350px;
-    white-space: pre;
 }
 
 .code {
-    padding: 10px;
-    margin-bottom: 10px;
     border: 1px solid gray;
-    overflow: auto;
-    width: 100%;
-}
-
-.clear {
-    clear : both;
-}
-
-pre {
+    padding: 10px;
     margin: 0;
+    overflow: auto;
 }
 
 .footer {
-    text-align : center;
+    text-align: center;
 }

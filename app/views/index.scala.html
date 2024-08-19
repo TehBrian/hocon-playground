@@ -1,8 +1,8 @@
 @()
 
 @main("HOCON Playground") {
-    <div class="content">
-        <div id="left">
+    <div class="boxes">
+        <div class="box">
             <h2>HOCON</h2>
             <pre id="hocon" class="code" contenteditable spellcheck="false">@* @formatter:off *@HOCON = Human-Optimized Config Object Notation
 
@@ -29,14 +29,12 @@ Try it out: conf is parsed online as you type@* @formatter:on *@</pre>
             <input type="checkbox" id="comments" name="comments" checked><label for="comments">comments</label><br>
             <input type="checkbox" id="originComments" name="originComments"><label for="originComments">origin comments</label><br>
         </div>
-        <div id="right">
+        <div class="box">
             <h2>Output</h2>
             <pre id="output" class="code"></pre>
         </div>
-        <div class="clear">
-            <div class="footer">
-                <p>Source: <a href="https://github.com/TehBrian/hocon-playground">github.com/TehBrian/hocon-playground</a></p>
-            </div>
-        </div>
+    </div>
+    <div class="footer">
+        <p>Source: <a href="https://github.com/TehBrian/hocon-playground">github.com/TehBrian/hocon-playground</a></p>
     </div>
 }
