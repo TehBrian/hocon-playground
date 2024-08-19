@@ -1,5 +1,5 @@
-organization := "com.github.av-elier"
 name := "hocon-playground"
+organization := "dev.tehbrian"
 
 version := "1.0.0-SNAPSHOT"
 
