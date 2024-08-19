@@ -1,7 +1,13 @@
 # HOCON Playground
 
-An online playground/parser of HOCON config.
+An online playground/parser of HOCON.
 
-Hosted at: https://hocon-playground.herokuapp.com/
+Hosted at: [hocon.tehbrian.dev](https://hocon.tehbrian.dev)
 
-Inspired by similar site for YAML https://github.com/ptarjan/online-yaml-parser
+To learn more about HOCON, check out:
+- [Official HOCON Specification](https://github.com/lightbend/config/blob/master/HOCON.md)
+- [Learn X in Y minutes, where X=hocon](https://learnxinyminutes.com/docs/hocon/)
+
+This is a maintained fork of [av-elier/hocon-playground](https://github.com/av-elier/hocon-playground). 
+
+Inspired by similar site for YAML, [ptarjan/online-yaml-parser](https://github.com/ptarjan/online-yaml-parser).
