@@ -6,6 +6,14 @@ html {
     box-sizing: inherit;
 }
 
+h1, h2, h3 {
+    margin-bottom: 3px;
+}
+
+p {
+    margin: 3px;
+}
+
 body {
     margin: 0;
     padding: 10px;
