@@ -1,5 +1,7 @@
 logs
 target
+/.bsp
+/.idea
 /.project
 /.settings
 /RUNNING_PID
