@@ -22,24 +22,20 @@ specs url: "https://github.com/lightbend/config/blob/master/HOCON.md"
 it's: ${it's}. A ${HOCON}
 
 Try it out: conf is parsed online as you type@* @formatter:on *@</pre>
-            Resolve references like "${common-param}"<br>
-            <input type="checkbox" id="resolve" name="resolve" checked><label for="resolve"><b>resolve</b></label><br>
-            Render options:<br>
-            <input type="checkbox" id="json" name="json" checked><label for="json">json</label><br>
+            <h3>Options</h3>
+            <input type="checkbox" id="resolve" name="resolve" checked><label for="resolve">resolve references</label><br>
+            <input type="checkbox" id="json" name="json" checked><label for="json">JSON</label><br>
             <input type="checkbox" id="formatted" name="formatted" checked><label for="formatted">formatted</label><br>
             <input type="checkbox" id="comments" name="comments" checked><label for="comments">comments</label><br>
-            <input type="checkbox" id="originComments" name="originComments"><label for="originComments">originComments</label><br>
+            <input type="checkbox" id="originComments" name="originComments"><label for="originComments">origin comments</label><br>
         </div>
         <div id="right">
             <h2>Output</h2>
-            <div class="code">
-                <pre id="output"></pre>
-            </div>
+            <pre id="output" class="code"></pre>
         </div>
         <div class="clear">
             <div class="footer">
-                Source: <a href="https://github.com/TehBrian/hocon-playground">
-                https://github.com/TehBrian/hocon-playground.git</a>.
+                <p>Source: <a href="https://github.com/TehBrian/hocon-playground">github.com/TehBrian/hocon-playground</a></p>
             </div>
         </div>
     </div>
