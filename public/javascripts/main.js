@@ -7,7 +7,6 @@ let inputFormatted = window.document.querySelector('#formatted');
 let inputComments = window.document.querySelector('#comments');
 let inputOriginComments = window.document.querySelector('#originComments');
 
-
 inputResolve.addEventListener('input', updateOutput)
 inputJson.addEventListener('input', updateOutput)
 inputFormatted.addEventListener('input', updateOutput)
@@ -22,11 +21,10 @@ function updateOutput() {
         `&formatted=${inputFormatted.checked}` +
         `&comments=${inputComments.checked}` +
         `&originComments=${inputOriginComments.checked}`;
-    let r = fetch(`/hoconToJson?${query}`, {
+    fetch(`/hoconToJson?${query}`, {
         method: 'POST',
         body: hocon.innerText,
-    });
-    r.then(x => x.text()).then(renderedJson => {
+    }).then(r => r.text()).then(renderedJson => {
         output.innerText = renderedJson;
     });
 }
