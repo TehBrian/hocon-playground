@@ -2,9 +2,9 @@
 
 An online playground/parser of HOCON.
 
-Hosted at: [hocon.tehbrian.dev](https://hocon.tehbrian.dev)
+Hosted at [hocon-playground.tehbrian.dev](https://hocon-playground.tehbrian.dev) and [hocon.tehbrian.dev](https://hocon.tehbrian.dev).
 
-To learn more about HOCON, check out:
+To learn more about HOCON, visit:
 - [Official HOCON Specification](https://github.com/lightbend/config/blob/master/HOCON.md)
 - [Learn X in Y minutes, where X=hocon](https://learnxinyminutes.com/docs/hocon/)
 
