@@ -4,7 +4,7 @@
     <div class="content">
         <div id="left">
             <h2>HOCON</h2>
-            <div id="hocon" class="code" contenteditable spellcheck="false">@* @formatter:off *@HOCON = Human-Optimized Config Object Notation
+            <pre id="hocon" class="code" contenteditable spellcheck="false">@* @formatter:off *@HOCON = Human-Optimized Config Object Notation
 
 "it's": "a JSON superset",
 
@@ -21,7 +21,7 @@ specs url: "https://github.com/lightbend/config/blob/master/HOCON.md"
 
 it's: ${it's}. A ${HOCON}
 
-Try it out: conf is parsed online as you type@* @formatter:on *@</div>
+Try it out: conf is parsed online as you type@* @formatter:on *@</pre>
             Resolve references like "${common-param}"<br>
             <input type="checkbox" id="resolve" name="resolve" checked><label for="resolve"><b>resolve</b></label><br>
             Render options:<br>
