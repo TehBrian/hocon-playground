@@ -49,6 +49,9 @@ body {
     font-size: 13px;
     border: 1px solid gray;
     padding: 10px;
+}
+
+#output {
     margin: 0;
     overflow: auto;
 }
