@@ -34,6 +34,14 @@ body {
 #hocon {
     resize: vertical;
     min-height: 350px;
+
+    /*
+    we must use <textarea> rather than <pre> to force plaintext-only.
+    this section makes <textarea> like <pre>.
+     */
+    display: block; /* https://stackoverflow.com/a/3454002/10361574 */
+    white-space: pre;
+    width: 100%;
 }
 
 .code {

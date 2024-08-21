@@ -4,7 +4,7 @@
     <div class="boxes">
         <div class="box">
             <h2>HOCON</h2>
-            <pre id="hocon" class="code" contenteditable spellcheck="false">@* @formatter:off *@HOCON = Human-Optimized Config Object Notation
+            <textarea id="hocon" class="code" spellcheck="false">@* @formatter:off *@HOCON = Human-Optimized Config Object Notation
 
 "it's": "a JSON superset",
 
@@ -21,7 +21,7 @@ specs url: "https://github.com/lightbend/config/blob/master/HOCON.md"
 
 it's: ${it's}. A ${HOCON}
 
-Try it out: conf is parsed online as you type@* @formatter:on *@</pre>
+Try it out: conf is parsed online as you type@* @formatter:on *@</textarea>
             <h3>Options</h3>
             <input type="checkbox" id="resolve" name="resolve" checked><label for="resolve">resolve references</label><br>
             <input type="checkbox" id="json" name="json" checked><label for="json">JSON</label><br>

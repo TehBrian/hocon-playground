@@ -24,9 +24,9 @@ function updateOutput() {
         `&originComments=${inputOriginComments.checked}`;
     fetch(`/hoconToJson?${query}`, {
         method: 'POST',
-        body: hocon.innerText,
+        body: hocon.value,
     }).then(r => r.text()).then(renderedJson => {
-        output.innerText = renderedJson;
+        output.textContent = renderedJson;
     });
 }
 
