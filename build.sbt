@@ -1,7 +1,7 @@
 name := "hocon-playground"
 organization := "dev.tehbrian"
 
-version := "1.0.0"
+version := "1.1.0"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
