@@ -8,6 +8,6 @@ To learn more about HOCON, visit:
 - [Official HOCON Specification](https://github.com/lightbend/config/blob/master/HOCON.md)
 - [Learn X in Y minutes, where X=hocon](https://learnxinyminutes.com/docs/hocon/)
 
-This is a maintained fork of [av-elier/hocon-playground](https://github.com/av-elier/hocon-playground). 
+This is a fork of [av-elier/hocon-playground](https://github.com/av-elier/hocon-playground). 
 
 Inspired by similar site for YAML, [ptarjan/online-yaml-parser](https://github.com/ptarjan/online-yaml-parser).
